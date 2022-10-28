@@ -1,0 +1,22 @@
+{
+  "name": "auth-cloud_fn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "scripts": {
+    "cloud": "env-cmd -f ./config/dev.env nodemon cloud_fn/request.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@google-cloud/functions-framework": "^3.1.0",
+    "env-cmd": "^10.1.0",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "axios": "^0.27.1",
+    "express": "^4.18.1",
+    "google-auth-library": "^7.14.0"
+  }
+}
