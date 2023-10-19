@@ -23,3 +23,7 @@ exports.gcfSendGrid = (data, context) => {
     };
     sendGridMail.send(msg)
   };
+
+  const functions = require('@google-cloud/functions-framework');
+
+  
